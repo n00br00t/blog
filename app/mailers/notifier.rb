@@ -9,7 +9,7 @@ class Notifier < ActionMailer::Base
   def email_friend(article, sender_name, receiver_email)
 		@article =article
 		@sender_name = sender_name
-		mail :to => receiver_email, :subject => "Interesting Article"
+		mail :from => "blograils", :to => receiver_email, :subject => "Interesting Article"
   end
 	def comment_added(comment)
 		@article = comment.article
