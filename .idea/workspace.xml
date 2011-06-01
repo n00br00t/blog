@@ -51,19 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="24" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://C:/Ruby192/lib/ruby/gems/1.9.1/gems/i18n-0.5.0/lib/i18n/config.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="8" selection-start="827" selection-end="827" vertical-scroll-proportion="0.3323398">
+            <state line="31" column="24" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.6557377">
               <folding />
             </state>
           </provider>
@@ -641,7 +632,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1292" height="1010" extended-state="0" />
+    <frame x="-8" y="-8" width="1292" height="1010" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.20045558" sideWeight="0.49682036" order="11" side_tool="false" content_ui="tabs" x="822" y="659" width="359" height="591" />
@@ -795,16 +786,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://C:/Ruby192/lib/ruby/gems/1.9.1/gems/i18n-0.5.0/lib/i18n/config.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="24" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.0">
+        <state line="29" column="8" selection-start="827" selection-end="827" vertical-scroll-proportion="0.3323398">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Ruby192/lib/ruby/gems/1.9.1/gems/i18n-0.5.0/lib/i18n/config.rb">
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="8" selection-start="827" selection-end="827" vertical-scroll-proportion="0.3323398">
+        <state line="31" column="24" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.6557377">
           <folding />
         </state>
       </provider>
