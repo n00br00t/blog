@@ -6,7 +6,7 @@ class Comment < ActiveRecord::Base
 
 #adição do metodo de erro caso o artigo ainda nao tenha sido publicado
 	def article_should_be_published
-		errors.add(:article_id, "is not published yet") if article && !article.published?
+		errors.add(:article_id, I18n.t('comments.errors.not_published_yet')) if article && !article.published?
 	end
-
 end
+
