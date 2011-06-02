@@ -6,6 +6,9 @@ class Article < ActiveRecord::Base
   has_and_belongs_to_many :categories
   has_many :comments
 
+  acts_as_taggable
+  simple_search :title, :body
+
   scope :published, where("articles.published_at IS NOT NULL")
   scope :draft, where("articles.published_at IS NULL")
   scope :recent, lambda { published.where("articles.published_at > ?", 1.week.ago.to_date)}

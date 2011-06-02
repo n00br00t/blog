@@ -1,6 +1,10 @@
 class ArticlesController < ApplicationController
 	#filtro caso o usuario nao esteja logado soh consegue usar index e show
-  before_filter :authenticate, :except => [:index, :show, :notify_friend]
+  before_filter :authenticate, :except => [:index, :show, :notify_friend, :search]
+  def search
+	  @articles = Article.search(params[:keyword])
+	  render :action => 'index'
+  end
 
   # GET /articles
   # GET /articles.xml
