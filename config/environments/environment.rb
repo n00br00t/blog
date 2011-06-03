@@ -24,8 +24,8 @@ Blog::Application.configure do
     :enable_starttls_auto => true,
     :port => 587,
     :authentication => :plain,
-    :user_name => "dantorment@gmail.com",
-    :password => 'r00tt0rm3nt'
+    :user_name => "email@gmail.com",
+    :password => ''
   }
 
   # Print deprecation notices to the Rails logger
