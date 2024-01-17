@@ -25,7 +25,7 @@ Blog::Application.configure do
     :port => 587,
     :authentication => :plain,
     :user_name => "email@gmail.com",
-    :password => 'senha'
+    :password => 'senha123'
   }
 
   # Print deprecation notices to the Rails logger
